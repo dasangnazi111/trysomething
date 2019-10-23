@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	div#newsbox{
+		height:240px;
+		width:300px;
+		border: 1px solid black;
+		padding-top: 0px;
+		padding-left: 0px;
+	
+	}
+	.boxul{
+		margin: 0px;
+		padding: 0px;
+		height:300px;
+		width:300px;
+	}
+	
+	.headbox{
+		width:300px;
+		height:30px;
+		background-color:darkgray;
+		background-image: url(images/menu1.jpg);
+		background-size: 8px 20px;
+		background-position: 35px;
+		background-repeat: no-repeat;
+		margin-left: 0px;
+		margin-bottom: 10px;
+		
+	}
+	
+	.boxa{
+		text-decoration: none;
+		font-family:黑体;
+		margin-left:50px;
+		text-decoration: none;
+		color: black;
+		font-size: 20px;
+		
+	}
+	div.boxcir{
+		border-radius: 60px;
+		border: 1px solid gray;
+		width:700px;
+		height:60px;
+		margin-top: 20px;
+	}
+	.boxs1{
+		width:100px;
+		height:30px;
+		position:absolute;
+			left:60px;
+			top: 268px;
+		
+	}
+		.boxs2{
+		width:100px;
+		height:30px;
+		position:absolute;
+			left: 180px;
+			top: 268px;
+	}
+	
+	.boxs3{
+		width:100px;
+		height:30px;
+		position:absolute;
+			left: 280px;
+			top: 268px;
+	}
+	.boxs4{
+		width:100px;
+		height:30px;
+		position:absolute;
+			left: 385px;
+			top: 268px;
+	}
+	.boxs5{
+		width:100px;
+		height:30px;
+		position:absolute;
+			left:495px;
+			top: 268px;
+	}
+	.boxs6{
+		width:100px;
+		height:30px;
+		position:absolute;
+			left:600px;
+			top: 268px;
+	}
+	
+	
+
+
+	</style>
+</head>
+
+<body >
+<div id="newsbox">
+	<ul class="boxul" >
+	<li class="headbox"><a href="#" class="boxa">东方新闻</a></li>
+	<li class="headbox"><a href="#" class="boxa">媒体广角</a></li>
+	<li class="headbox"><a href="#" class="boxa">东方视点</a></li>
+	<li class="headbox"><a href="#" class="boxa">学子风采</a></li>
+	<li class="headbox"><a href="#" class="boxa">高校经纬</a></li>
+	<li class="headbox"><a href="#" class="boxa">新闻排行</a></li>
+	</ul>
+	</div>
+<div class="boxcir">
+	<h6 class="boxs1">东方新闻</h6>
+	<h6 class="boxs2">媒体广角</h6>
+	<h6 class="boxs3">东方视点</h6>
+	<h6 class="boxs4">学子风采</h6>
+	<h6 class="boxs5">高校经纬</h6>
+	<h6 class="boxs6">新闻排行</h6>
+</div>
+</body>
+</html>
